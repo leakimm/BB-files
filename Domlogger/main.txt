@@ -1,9 +1,12 @@
 {
+  "config": {},
   "hooks": {
     "DOM": {
       "attribute": [
         "set:Element.prototype.innerHTML",
         "set:Element.prototype.outerHTML",
+        "set:Element.prototype.insertAdjacentHTML",
+        "set:Element.prototype.onevent",
         "set:HTMLAnchorElement.prototype.href",
         "set:HTMLButtonElement.prototype.formAction",
         "set:HTMLFormElement.prototype.action",
@@ -20,7 +23,11 @@
         "Element.prototype.insertAdjacentHTML",
         "Element.prototype.setAttribute",
         "HTMLScriptElement.prototype.append",
-        "HTMLScriptElement.prototype.appendChild"
+        "HTMLScriptElement.prototype.appendChild",
+        "HTMLDocument.prototype.write()",
+        "HTMLDocument.prototype.write",
+        "HTMLDocument.prototype.writeln()",
+        "HTMLDocument.prototype.writeln"
       ]
     },
     "EVAL": {
@@ -34,6 +41,7 @@
     "JQUERY": {
       "function": [
         "$",
+        "$.parseHTML",
         "jQuery",
         "jQuery.globalEval",
         "jQuery.parseHTML",
@@ -60,12 +68,41 @@
         "jQuery.prototype.wrapInner"
       ]
     },
+    "MISC": {
+      "attribute": [
+        "document.cookie",
+        "document.prototype.writeln",
+        "document.prototype.write",
+        "document.domain",
+        "window.name"
+      ],
+      "class": [
+        "WebSocket",
+        "URL"
+      ],
+      "function": [
+        "document.implementation.createHTMLDocument",
+        "execScript",
+        "msSetImmediate",
+        "navigator.serviceWorker.register",
+        "Range.prototype.createContextualFragment",
+        "setImmediate"
+      ]
+    },
     "NAVIGATION": {
       "function": [
         "history.pushState",
         "history.replaceState",
         "navigation.navigate",
         "window.open"
+      ]
+    },
+    "PSTMSG": {
+      "event": [
+        "message"
+      ],
+      "function": [
+        "window.postMessage"
       ]
     },
     "REQUESTS": {
@@ -75,34 +112,6 @@
         "XMLHttpRequest.prototype.setRequestHeader",
         "XMLHttpRequest.prototype.send"
       ]
-    },
-    "PSTMSG": {
-      "function": [
-        "window.postMessage"
-      ],
-      "event": [
-        "message"
-      ]
-    },
-    "MISC": {
-      "function": [
-        "document.implementation.createHTMLDocument",
-        "execScript",
-        "msSetImmediate",
-        "navigator.serviceWorker.register",
-        "Range.prototype.createContextualFragment",
-        "setImmediate"
-      ],
-      "attribute": [
-        "document.cookie",
-        "document.domain",
-        "window.name"
-      ],
-      "class": [
-        "WebSocket",
-        "URL"
-      ]
     }
-  },
-  "config": {}
+  }
 }
