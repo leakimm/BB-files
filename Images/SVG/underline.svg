@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100">
+  <g transform="translate(300, 0) rotate(20)">
+    <FOREIGNOBJECT x="10" y="10" width="800" height="800">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <u>Test</u>
+      </div>
+    </FOREIGNOBJECT>
+  </g>
+</svg>
